@@ -29,7 +29,7 @@ import org.springframework.stereotype.Service;
 // Otra notación que es un estereotipo de componente es @Service que aporta una semántica, es decir,
 // algo descriptivo que esta clase representa un servicio
 
-//@Component 
+//@Component
 @Service
 public class MiServicio {
     public String operacion(){
