@@ -28,6 +28,8 @@ public class IndexController {
     // ahora si se estará usando la inyección de datos, y para ello se usa la notación @Autowired
     // además, se elimina la palabra reservada new y la instancia, recordando que MiServicio ya
     // forma parte de los beans de Spring
+
+
     @Autowired
     private MiServicio servicio;
 
